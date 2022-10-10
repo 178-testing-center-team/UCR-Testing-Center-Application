@@ -22,14 +22,14 @@ Final Vision: Our final vision for the testing center scheduling is to make an a
 
 Vision for the end of this quarter (178A): The vision for the end of this quarter is to have a MVP, that is a simple scheduler for students to book the testing center room. We want to have a working scheduler system that allows professors to set a time to set aside a room/rooms. A proctor should be able to check off students from a registered list. An administrator should be able to designate at what times a room will be available and how many seats will be available and finally the student shouldn’t be able to choose a time if a seat isn’t available.
 
-##### Setup
+## Setup
 
 1. Setup a virtual enviorment in working directory, use python 3.10.7
 
-command: python3 -m venv venv
+**command: python3 -m venv venv**
 
 2. Switch interpertur to your virtual enviorment
 
 3. Download requirment from pythonRequirments.txt
 
-command: pip install -r pythonRequirments.txt
+**command: pip install -r pythonRequirments.txt**
