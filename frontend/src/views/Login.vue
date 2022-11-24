@@ -121,6 +121,7 @@
 	position:absolute;
 	left:199px;
 	top:281px;
+    justify-content: center;
 	border-top-left-radius:30px;
 	border-top-right-radius:30px;
 	border-bottom-left-radius:30px;
@@ -132,10 +133,10 @@
 	height:30px;
 	position:absolute;
 	left:242px;
-	top:286px;
+	top:295px;
 	font-family:Oswald;
 	text-align:left;
-	font-size:32px;
+	font-size:26px;
 	letter-spacing:0;
 }
 </style>
