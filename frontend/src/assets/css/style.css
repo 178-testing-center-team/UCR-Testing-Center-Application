@@ -39,5 +39,18 @@ button:hover {
     overflow: hidden;
 }
 
+.admin-inbox {
+    display: grid;
+    grid-template-columns: 270px 3fr;
+    grid-template-rows: .1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "navbar card"
+    "navbar card";
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
 
 
