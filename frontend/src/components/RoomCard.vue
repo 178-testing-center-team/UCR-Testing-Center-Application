@@ -4,9 +4,9 @@ export default {
   components: { Header },
     props: {
         cardColor : String,
-        roomNum : String,
+        roomNum : Number,
         bldg : String,
-        seatNum : String
+        seatNum : Number
     },
     methods: {
         roomClickEvent() {

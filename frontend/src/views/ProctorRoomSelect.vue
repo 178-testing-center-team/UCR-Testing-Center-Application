@@ -29,8 +29,8 @@ export default {
         { title: 'My Account', img: 'profile-icon.svg', route: 'proctor/account' }]" />
         <div class="room-page-contents">
             <div class = "room-cards">
-                <RoomCard cardColor='18ACFF' roomNum='236' bldg='Winston Chung Hall' seatNum='45' />
-                <RoomCard cardColor='18ACFF' roomNum='220' bldg='Winston Chung Hall' seatNum='45' />
+                <RoomCard cardColor='18ACFF' :roomNum=236 bldg='Winston Chung Hall' :seatNum=45 />
+                <RoomCard cardColor='18ACFF' :roomNum=220 bldg='Winston Chung Hall' :seatNum=45 />
             </div>
         </div>
         <CornerStyle />

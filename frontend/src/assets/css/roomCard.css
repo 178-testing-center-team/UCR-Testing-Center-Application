@@ -1,4 +1,4 @@
-.room-card-element{
+.room-card-element {
     min-width: 200px;
     top: 0px;
     margin-left: 50px;
@@ -8,28 +8,28 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-.room-card-element-color{
+.room-card-element-color {
     background-color: #18ACFF;
     min-height: 150px;
 }
 
-.room-card-element-location{
+.room-card-element-location {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: left;
 }
 
-.room-card-element-seats{
+.room-card-element-seats {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 40px;
+    margin-left: auto;
     text-align: right;
     float: right;
 }
 
-.room-card-element-text{
+.room-card-element-text {
     display: flex;
     min-width: 200px;
     padding-left: 10px;
