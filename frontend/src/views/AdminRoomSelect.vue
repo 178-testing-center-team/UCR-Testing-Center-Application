@@ -58,6 +58,15 @@ export default {
             <!-- renders all testing rooms in db -->
             <div class = "room-cards">
                 <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
+                <RoomCard v-for="(room) in this.rooms" cardColor='18ACFF' :roomNum="room.room_number" :bldg="room.bldg" :seatNum="room.capacity" />
             </div>
         </div>
         <CornerStyle />

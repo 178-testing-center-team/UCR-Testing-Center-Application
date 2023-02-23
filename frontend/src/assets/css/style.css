@@ -182,6 +182,7 @@ button:hover {
     align-content: flex-start;
     flex-wrap: wrap;
     margin-top: 50px;
+    
 }
 
 @media all and (max-width:1000px) {
@@ -193,4 +194,5 @@ button:hover {
 
 .room-page-contents {
     grid-area: card;
+    overflow: auto;
 }
