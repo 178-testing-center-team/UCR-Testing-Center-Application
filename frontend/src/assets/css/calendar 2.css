@@ -1,0 +1,104 @@
+/* calendar styling */
+
+.dp-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  grid-area: card;
+  /* using card grid area as it is the same space but aligning to top */
+  z-index: 0;
+  /* to make calendar to behind the dashboard when screen is small*/
+  flex-wrap: wrap;
+  height: fit-content;
+  width: fit-content;
+  min-height: 100%;
+}
+
+.calendar-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.calendar-nav-btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.calendar-nav-btns button {
+  background-color: var(--UcrGold);
+  padding: 5px;
+  width: 70px;
+  border-radius: 15px;
+}
+
+.calendar-nav-btns button:hover {
+  background-color: var(--GoldHover);
+}
+
+.dp {
+  max-width: min-content;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* calendar date */
+
+/* .e177_933 {
+  width: 290px;
+  height: 47px;
+  position: absolute;
+}
+
+.e177_934 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+}
+
+.e177_935 {
+  background-color: rgba(0, 61.00000016391277, 165.00000536441803, 1);
+  width: 12.658331871032715px;
+  height: 22.108333587646484px;
+  position: absolute;
+  left: 7.495833873748779px;
+  top: 2.945833921432495px;
+}
+
+.e177_936 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 262px;
+  top: 9px;
+}
+
+.e177_937 {
+  background-color: rgba(0, 61.00000016391277, 165.00000536441803, 1);
+  width: 12.629167556762695px;
+  height: 22.13749885559082px;
+  position: absolute;
+  left: 7.904167175292969px;
+  top: 2.9166669845581055px;
+}
+
+.e177_938 {
+  color: rgba(0, 0, 0, 1);
+  width: 186px;
+  height: 47px;
+  position: absolute;
+  left: 52px;
+  top: 0px;
+  font-family: Oswald;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0;
+} */

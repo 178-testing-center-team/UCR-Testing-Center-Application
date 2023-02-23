@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <div class="admin-home">
+    <div class="page-content">
         <Header title="Admin Inbox"/>
         <NavBtn/>
         <NavBar :nav-elements="[

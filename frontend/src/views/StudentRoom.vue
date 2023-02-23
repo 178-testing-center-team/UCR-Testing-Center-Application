@@ -12,7 +12,7 @@
 </script>
 
 <template>
-    <div class="admin-home">
+    <div class="page-content">
         <Header title="Student Course Testing Rooms"/>
         <NavBtn/>
 

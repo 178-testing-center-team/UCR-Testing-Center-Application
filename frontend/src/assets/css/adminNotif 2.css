@@ -1,0 +1,75 @@
+.admin-notif-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:flex-start;
+    grid-area: card;
+    flex-wrap: wrap;
+    height: fit-content;
+    min-height: 100%;
+}
+
+
+.admin-notif-element{
+    width: 100%;
+    min-height: 70px;
+    border-bottom: solid var(--UcrBlue) 0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    justify-self: start;
+}
+.admin-notif-element:nth-child(odd){
+    background-color: var(--Grey);
+}
+.admin-notif-element:nth-child(even){
+    background-color: var(--White);
+}
+
+.profColumn{
+    width: 25%;
+    text-align: center;
+
+}
+.room-column{
+    width: 25%;
+    text-align: center;
+    font-family: 'Oswald';
+    color: #000000;
+}
+.sched-column{
+    width: 25%;
+    text-align: center;
+}
+
+.check-button{
+    background-color: #27C100;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.mail-button{
+    background-color: #FFB718;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.reject-button{
+    background-color: #D10606;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    
+}
+
+.admin-notif-buttons{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@daypilot/daypilot-lite-vue": "^3.12.1",
+    "vuex": "^4.1.0"
+  }
+}

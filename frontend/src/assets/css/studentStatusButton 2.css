@@ -1,0 +1,22 @@
+.status-toggle {
+  border-radius: 60px;
+  height: 32px;
+  display: inline-flex;
+  width: 32px;
+}
+
+.button-icon {
+  font-size: 20px;
+  display: flex;
+  margin-top: 4px;
+  align-items: center;
+  color: #111111;
+}
+
+.fa-close {
+  font-size: 20px;
+  display: flex;
+  margin-left: 2px;
+  align-items: center;
+  color: #111111;
+}

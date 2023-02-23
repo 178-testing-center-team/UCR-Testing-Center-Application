@@ -65,7 +65,7 @@ button:hover {
 
 /* admin home page setup */
 
-.admin-home {
+.page-content {
     display: grid;
     grid-template-columns: 270px 3fr;
     grid-template-rows: .1fr 1fr 1fr;
@@ -78,13 +78,13 @@ button:hover {
 }
 
 @media all and (max-width:642px) {
-    .admin-home {
+    .page-content {
         grid-template-columns: 1fr 3fr;
     }
 }
 
 @media all and (max-width:642px) {
-    .admin-home {
+    .page-content {
         grid-template-areas: "header header"
             "card card"
             "card card";
@@ -92,7 +92,7 @@ button:hover {
 }
 
 @media all and (max-height:692px) {
-    .admin-home {
+    .page-content {
         grid-template-areas:
             "header header"
             "card card"
